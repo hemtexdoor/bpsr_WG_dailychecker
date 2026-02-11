@@ -14,49 +14,49 @@
 　　・友好度<br>
 　　　・アシスト　1000pt<br>
 　　　・イベント　1000pt<br>
-   ※jsonの構成<br>
-max_para = <br>
+※jsonの構成<br>
+max*para = <br>
 { boss :6,<br>
-  elite:6,<br>
-  home :6,<br>
-  focus:2000,<br>
-  frendry_assist:1000,<br>
-  frendry_event :1000,<br>
+elite:6,<br>
+home :6,<br>
+focus:2000,<br>
+frendry_assist:1000,<br>
+frendry_event :1000,<br>
 }<br>
 　・増加分<br>
 　　・ボス鍵・精鋭鍵<br>
 　　・ホーム依頼<br>
 　　・フォーカス<br>
-　  ※jsonの構成<br>
+　 ※jsonの構成<br>
 add_para =<br>
 { boss :2,<br>
-  elite:2,<br>
-  home :2,<br>
-  focus:400,<br>
+elite:2,<br>
+home :2,<br>
+focus:400,<br>
 }<br>
 　・現在の数<br>
 　　・ボス鍵・精鋭鍵<br>
 　　・ホーム依頼<br>
 　　・フォーカス<br>
-   ※jsonの構成<br>
+※jsonの構成<br>
 current_para = <br>
 { flag_init:0,<br>
-  boss :0,<br>
-  elite:0,<br>
-  home :0,<br>
-  focus:0,<br>
+boss :0,<br>
+elite:0,<br>
+home :0,<br>
+focus:0,<br>
 }//Localstorageにセーブ・ロードして更新される<br>
 current_para_ini =<br>
 { flag_init:0,<br>
-  boss :0,<br>
-  elite:0,<br>
-  home :0,<br>
-  focus:0,<br>
+boss :0,<br>
+elite:0,<br>
+home :0,<br>
+focus:0,<br>
 }//初期化する際のjsonデータ<br>
 <br>
 ・データ保存場所<br>
 　・LocalStorageを使って保存<br>
-　・キーはjsonDataの頭に`key_`を付ける<br>
+　・キーはjsonDataの頭に`key*`を付ける<br>
 <br>
 <br>
 ・機能<br>
@@ -93,7 +93,7 @@ current_para_ini =<br>
 　・[checkbox]　開拓局の依頼<br>
 　・[checkbox]　ワールドレイド<br>
 　・[checkbox]　活躍度<br>
-　・[checkbox]　友好度(80+5)*2程度取得する<br>
+　・[checkbox]　友好度(80+5)\*2程度取得する<br>
 <br>
 ・ウィークリー
 　・[checkbox]　今週解放される要素の確認<br>
@@ -117,3 +117,4 @@ current_para_ini =<br>
 <br>
 ・備考<br>
 遺跡は2週間更新ですが、更新が長いので半分の1週間でもれなく確認をすることにしています<br>
+とりあえずライブコーディングしてみたいなというやつ、push確認用<br>
